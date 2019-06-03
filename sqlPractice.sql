@@ -222,6 +222,8 @@ order by
 select
   interval(9, 1, 2, 3, 4, 5, 6, 7, 8);
 select
-  *
+  id, name
 from
-  employee;
+  employee
+order by
+	boss_id;
